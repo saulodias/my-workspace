@@ -3,18 +3,20 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'lib-my-lib',
   template: `
-    <p>
-      my-lib works!
-    </p>
+    <h4>h4. Bootstrap heading <small>Secondary text</small></h4>
+    <span>Example of inline code: <code>&lt;section&gt;</code>.</span>
+    <br />
+    <pre>
+
+Example of multiple lines of code.
+This should appear as a new line.
+    </pre
+    >
   `,
-  styles: [
-  ]
+  styles: [],
 })
 export class MyLibComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
