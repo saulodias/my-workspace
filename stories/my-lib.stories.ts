@@ -1,5 +1,5 @@
 import { Story, Meta, moduleMetadata } from '@storybook/angular';
-import { MyLibComponent, MyLibModule } from 'my-lib';
+import { MyLibComponent, MyLibModule } from 'dist/my-lib';
 
 export default {
   title: 'Example/MyLib',
